@@ -1,0 +1,41 @@
+.centered-h2 {
+  text-align: center;
+}
+
+.dropdown {
+  margin-right: 20px;
+}
+
+.category-list {
+  margin-top: 10px;
+}
+
+.card {
+  height: auto;
+  flex: 0 0 calc(33.333% - 20px); 
+  margin-right: 20px; 
+  margin-bottom: 20px;
+}
+
+.card:last-child {
+  margin-right: 0; 
+}
+
+.card .card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: cover; 
+}
+
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.card:hover .card-title {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: initial;
+}
+
